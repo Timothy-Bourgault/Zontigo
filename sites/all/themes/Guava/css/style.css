@@ -1,3 +1,18 @@
-/**
- * Place your custom styles here.
- */
+body {
+  background-image: linear-gradient(#ccffcc, white);
+  background-repeat: no-repeat;
+}
+
+.screenshot {
+  url ('sites/themes/Guava/screenshot.jpeg')
+}
+.navbar {
+}
+
+.footer {
+  text-align: center;
+}
+
+.highlighted {
+  text-align: center;
+}

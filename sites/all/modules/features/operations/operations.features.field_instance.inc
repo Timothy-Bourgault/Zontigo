@@ -69,7 +69,7 @@ function operations_field_default_field_instances() {
     'settings' => array(
       'alt_field' => 0,
       'default_image' => 3,
-      'file_directory' => '',
+      'file_directory' => 'sites/all/images/avatar.jpg',
       'file_extensions' => 'png gif jpg jpeg',
       'max_filesize' => '',
       'max_resolution' => '150x150',
