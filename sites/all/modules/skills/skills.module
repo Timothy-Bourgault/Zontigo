@@ -1,0 +1,26 @@
+<?php
+
+function skills_menu(){
+  $items['skill_list'] = array(
+    'title' => 'Skills Archive',
+    'page callback' => 'drupal_get_form',
+    'page arguments' => array('skills_form'),
+    'access callback' => TRUE,
+    'type' => MENU_NORMAL_ITEM,
+  );
+  return $items;
+}
+
+function skills_form() {
+  $form['skills'] = array(
+    '#title' => 'New Skills',
+    '#type' => 'textfield',
+    '#description' => t('Enter new skills into our archive'),
+    '#required' => TRUE,
+  );
+  $form['submit'] = array(
+    '#type' => 'submit',
+    '#value' => 'Archive Skill',
+  );
+  return $form;
+}
