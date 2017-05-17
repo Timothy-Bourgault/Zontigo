@@ -1,14 +1,75 @@
+html {
+  background: url('death-background.jpeg') no-repeat center center fixed;
+  -webkit-background-height: 90%;
+  -moz-background-height: 90%;
+  -o-background-height: 90%;
+  -webkit-background-width: 100%;
+  -moz-background-width: 100%;
+  -o-background-width: 100%;
+  background-size: 100% 99%;
+  margin-top: 200px;
+}
+
 body {
-  background-image: linear-gradient(#ccffcc, white);
-  background-repeat: no-repeat;
+  margin-top: 100px;
+  background: url('iridescent.jpeg')
+    no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: 99% 95%;
+    -moz-border-radius: 40px;
+    -webkit-border-radius: 40px;
+    border-radius: 40px;
 }
 
-.screenshot {
-  url ('sites/themes/Guava/screenshot.jpeg')
+div#navbar-collapse .navbar-collapse .collapse {
+  opacity: 1.0;
 }
-.navbar {
+div .region .region-sidebar-first .well {
+  opacity: 1.0;
 }
 
+section#block-search-form {
+  opacity: 1.0;
+}
+
+a {
+  color: white;
+}
+.region {
+  opacity: 1.0;
+}
+
+.not-front {
+  margin-top: 100px;
+  background: url('iridescent.jpeg')
+    no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: 90% 90%;
+    opacity: 0.8;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+
+
+div.row {
+  text-align: center;
+}
+
+.navbar-brand{
+  float: right;
+}
+.navbar-header {
+  opacity: 100%;
+}
+
+div.navbar-header {
+  opacity: 1;
+}
 .footer {
   text-align: center;
 }
