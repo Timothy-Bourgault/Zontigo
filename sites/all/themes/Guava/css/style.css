@@ -8,20 +8,20 @@ html {
   -moz-background-width: 100%;
   -o-background-width: 100%;
   background-size: 100% 100%;
-  margin-top: 110px;
+  margin-top: 300px;
 }
 
 body {
-  margin-top: 90px;
+  /*margin-top: 90px;*/
   background: url('iridescent.jpeg')
     no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: 100% 95%;
-    -moz-border-radius: 40px;
-    -webkit-border-radius: 40px;
-    border-radius: 80px;
+    -moz-border-radius: 10px 10px 40px 40px;
+    -webkit-border-radius: 10px 10px 40px 40px;
+    border-radius: 10px 10px 80px 80px;
 }
 
 .region-sidebar-first {
@@ -52,18 +52,35 @@ p {
 }
 
 h1 {
-  color: lightgrey;
+  color: #d6f5f5;
   text-shadow: -1px 0 green, 0 1px green, 1px 0 green, 0 -1px green;
 }
 
 h2 {
-  color: lightgrey;
+  color: #d6f5f5;
   text-shadow: -1px 0 green, 0 1px green, 1px 0 green, 0 -1px green;
 }
 
 a {
   color: orange;
   text-shadow: -1px 0 darkblue, 0 1px darkblue, 1px 0 darkblue, 0 -1px darkblue;
+}
+
+li {
+  text-align: center;
+  list-style: none;
+  list-style-position: inside;
+}
+
+ul, menu, dir {
+  text-align: center;
+  list-style: none;
+  list-style-position: inside;
+  -webkit-margin-before: 1em;
+  -webkit-margin-after: 1em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+  -webkit-padding-start: 0px;
 }
 
 div.field-label {
