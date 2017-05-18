@@ -1,14 +1,14 @@
 html {
   background: url('confetti_death.jpeg') no-repeat center center fixed;
   background-position: bottom;
-  -webkit-background-height: 100%;
-  -moz-background-height: 100%;
-  -o-background-height: 100%;
+  -webkit-background-height: 150%;
+  -moz-background-height: 150%;
+  -o-background-height: 150%;
   -webkit-background-width: 100%;
   -moz-background-width: 100%;
   -o-background-width: 100%;
-  background-size: 100% 100%;
-  margin-top: 100px;
+  background-size: 100% 98%;
+  margin-top: 140px;
 }
 
 body {
@@ -18,7 +18,7 @@ body {
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: 100% 95%;
+    background-size: 100% 100%;
     -moz-border-radius: 10px 10px 40px 40px;
     -webkit-border-radius: 10px 10px 40px 40px;
     border-radius: 10px 10px 80px 80px;
@@ -42,6 +42,11 @@ p {
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
+span {
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
 .img-responsive {
   display: block;
   margin: 0 auto;
@@ -61,9 +66,19 @@ h2 {
   text-shadow: -1px 0 green, 0 1px green, 1px 0 green, 0 -1px green;
 }
 
+h3 {
+  color: #d6f5f5;
+  text-shadow: -1px 0 green, 0 1px green, 1px 0 green, 0 -1px green;
+}
+
 a {
-  color: orange;
+  color: #fc7702;
   text-shadow: -1px 0 darkblue, 0 1px darkblue, 1px 0 darkblue, 0 -1px darkblue;
+}
+
+dt {
+  color: #d6f5f5;
+  text-shadow: -1px 0 green, 0 1px green, 1px 0 green, 0 -1px green;
 }
 
 li {
