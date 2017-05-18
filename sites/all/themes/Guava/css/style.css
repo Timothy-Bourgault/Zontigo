@@ -1,44 +1,84 @@
 html {
-  background: url('death-background.jpeg') no-repeat center center fixed;
-  -webkit-background-height: 90%;
-  -moz-background-height: 90%;
-  -o-background-height: 90%;
+  background: url('confetti_death.jpeg') no-repeat center center fixed;
+  background-position: bottom;
+  -webkit-background-height: 100%;
+  -moz-background-height: 100%;
+  -o-background-height: 100%;
   -webkit-background-width: 100%;
   -moz-background-width: 100%;
   -o-background-width: 100%;
-  background-size: 100% 99%;
-  margin-top: 200px;
+  background-size: 100% 100%;
+  margin-top: 110px;
 }
 
 body {
-  margin-top: 100px;
+  margin-top: 90px;
   background: url('iridescent.jpeg')
     no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: 99% 95%;
+    background-size: 100% 95%;
     -moz-border-radius: 40px;
     -webkit-border-radius: 40px;
-    border-radius: 40px;
+    border-radius: 80px;
 }
 
-div#navbar-collapse .navbar-collapse .collapse {
-  opacity: 1.0;
-}
-div .region .region-sidebar-first .well {
-  opacity: 1.0;
+.region-sidebar-first {
+  background-color: #222;
+  border-color: #080808;
 }
 
-section#block-search-form {
-  opacity: 1.0;
+.btn-primary {
+  background-color: #290066;
+}
+
+img {
+  image: url('sites/all/themes/Guava/css/Zava.png')
+}
+
+p {
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.img-responsive {
+  display: block;
+  margin: 0 auto;
+}
+
+.active-trail {
+  background-color: transparent;
+}
+
+h1 {
+  color: lightgrey;
+  text-shadow: -1px 0 green, 0 1px green, 1px 0 green, 0 -1px green;
+}
+
+h2 {
+  color: lightgrey;
+  text-shadow: -1px 0 green, 0 1px green, 1px 0 green, 0 -1px green;
 }
 
 a {
-  color: white;
+  color: orange;
+  text-shadow: -1px 0 darkblue, 0 1px darkblue, 1px 0 darkblue, 0 -1px darkblue;
 }
-.region {
-  opacity: 1.0;
+
+div.field-label {
+  color: lightgrey;
+  font-size: 2em;
+  text-shadow: -1px 0 green, 0 1px green, 1px 0 green, 0 -1px green;
+}
+
+div.field-item.even {
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+label {
+  color: white;
 }
 
 .not-front {
@@ -48,20 +88,20 @@ a {
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: 90% 90%;
-    opacity: 0.8;
-    border-radius: 8px;
+    background-size: 100% 95%;
+    opacity: 1;
+    border-radius: 80px;
     overflow: hidden;
 }
 
-
-
 div.row {
   text-align: center;
+  image-o
 }
 
 .navbar-brand{
   float: right;
+  color: #88ff4d;
 }
 .navbar-header {
   opacity: 100%;
