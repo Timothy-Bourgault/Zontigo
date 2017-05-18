@@ -1,32 +1,47 @@
 html {
-  background: url('confetti_death.jpeg') no-repeat center center fixed;
-  background-position: bottom;
+  background: url('death-background.jpeg') no-repeat center center fixed;
   -webkit-background-height: 150%;
   -moz-background-height: 150%;
   -o-background-height: 150%;
   -webkit-background-width: 100%;
   -moz-background-width: 100%;
   -o-background-width: 100%;
-  background-size: 100% 98%;
-  margin-top: 140px;
+  background-size: 100% 100%;
 }
 
 body {
-  /*margin-top: 90px;*/
-  background: url('iridescent.jpeg')
+  background: url('iridess.jpg')
     no-repeat center center fixed;
+    opacity: 0.9;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: 100% 100%;
     -moz-border-radius: 10px 10px 40px 40px;
     -webkit-border-radius: 10px 10px 40px 40px;
-    border-radius: 10px 10px 80px 80px;
+    border-radius: 10px 10px 60px 60px;
 }
 
 .region-sidebar-first {
   background-color: #222;
   border-color: #080808;
+}
+
+aside.col-sm-3 {
+  background-color: #222;
+  border-color: #080808;
+  border-top: 1em;
+  margin-top: 1em;
+}
+
+h2.block-title {
+  margin-top: 1em;
+  border-top: 1em;
+}
+
+#block-user-new {
+  margin-top: 1em;
+  border-top: 1em;
 }
 
 .btn-primary {
@@ -40,6 +55,8 @@ img {
 p {
   color: white;
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  position: relative;
+  opacity: 1;
 }
 
 span {
@@ -72,7 +89,7 @@ h3 {
 }
 
 a {
-  color: #fc7702;
+  color: #f2ff02;
   text-shadow: -1px 0 darkblue, 0 1px darkblue, 1px 0 darkblue, 0 -1px darkblue;
 }
 

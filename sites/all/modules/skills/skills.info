@@ -1,5 +1,0 @@
-name = Skills
-description = For users to be able to name custom skills in the community.
-package = Zontigo Modules
-core = 7.x
-files[] = skills.module
